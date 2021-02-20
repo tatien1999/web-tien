@@ -29,7 +29,20 @@ function User() {
                             <td>ddsa</td>
                             <td>male</td>
                             <td>
-                            <Link to='/UpdateAcc'>
+                            <Link to='/updateAcc'>
+                                <button>Edit</button>
+                            </Link>
+                            </td>
+                    </tbody>  
+                    <tbody>
+                            <td>2</td> 
+                            <td>ddđaaaaa</td>
+                            <td>da@da</td>
+                            <td>asdd</td>
+                            <td>ddsa</td>
+                            <td>male</td>
+                            <td>
+                            <Link to='/updateAcc'>
                                 <button>Edit</button>
                             </Link>
                             </td>

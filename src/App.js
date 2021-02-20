@@ -11,9 +11,6 @@ import User from "./todo/User"
 import CreateAcc from "./todo/CreateAcc"
 import UpdateAcc from "./todo/UpdateAcc"
 
-
-
-
 export default function App() {
   return (
     <Router>
@@ -36,7 +33,7 @@ export default function App() {
           <Route path="/agreeterm" component={Agree}/>  
           <Route path="/ceacc" component={User}/>
           <Route path="/CreateAcc" component={CreateAcc}/>
-          <Route path="/UpdateAcc" component={UpdateAcc}/>
+          <Route path={"/updateAcc"} component={UpdateAcc}/>
         </Switch>
       </div>
     </Router>
